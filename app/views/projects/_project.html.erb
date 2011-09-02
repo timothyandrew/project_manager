@@ -2,4 +2,5 @@
 	<%= project_title_links(project) %>
 	
 	<%= render project.roles %>
+	<%= link_to "Add a new role to this project", project_path(project) + "/roles/new" %>
 </div>
