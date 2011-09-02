@@ -7,7 +7,7 @@ module ProjectsHelper
           link_to_icon('destroy', project, {
             :confirm => "Are you sure?",
             :method => :delete
-          })
+          }),
         ].join(' '),
         nil, false)
   end
