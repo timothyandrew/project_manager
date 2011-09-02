@@ -1,5 +1,9 @@
 ProjectManager::Application.routes.draw do
 
+  resources :projects do
+    resources :roles
+  end
+  
   resources :people
 
   # The priority is based upon order of creation:
